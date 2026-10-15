@@ -1,0 +1,1822 @@
+{
+ "classes": {
+  "ABCDEFGHIJKMNPQRSTUVWXYZ23456789": [
+   "abcdefghijkmnpqrstuvwxyz23456789"
+  ],
+  "AllowDemoFileWrite": [
+   "ConvertToUTF8",
+   "ExtractFileThumbnailToPNG",
+   "GetBitmapTexturesLocation",
+   "GetConfigLocation",
+   "GetDataLocation",
+   "GetGadgetsLocation",
+   "GetPostProcessorLocation",
+   "GetToolDatabaseLocation",
+   "GetToolpathDefaultsLocation",
+   "GetUserBitmapTexturesLocation",
+   "GetUserConfigLocation",
+   "GetUserGadgetsLocation",
+   "GetVectorTexturesLocation",
+   "MessageBox",
+   "vSTR"
+  ],
+  "AngleCCWBetween": [
+   "CrossProduct",
+   "DotProduct"
+  ],
+  "AssertFilesIdentical": [
+   "AssertCoincident",
+   "AssertFalse",
+   "AssertTrue",
+   "Debug",
+   "LogInfo"
+  ],
+  "BEGIN": [
+   "CCW_ARC_MOVE",
+   "CW_ARC_MOVE",
+   "DWELL_MOVE",
+   "FEED_MOVE",
+   "FEED_RATE_CHANGE",
+   "FIRST_CCW_ARC_MOVE",
+   "FIRST_CW_ARC_MOVE",
+   "FIRST_FEED_MOVE",
+   "FIRST_PLUNGE_MOVE",
+   "FIRST_RAPID_MOVE",
+   "FOOTER",
+   "HEADER",
+   "INITIAL_RAPID_MOVE",
+   "NEW_SEGMENT",
+   "PLUNGE_MOVE",
+   "RAPID_MOVE",
+   "RETRACT_MOVE",
+   "ROTARY_A_INDEX",
+   "TOOLCHANGE",
+   "begin"
+  ],
+  "BLOCKSIZE": [
+   "bind",
+   "choose",
+   "connect4",
+   "connect6",
+   "newtry",
+   "sinkt",
+   "sourcet"
+  ],
+  "Box2D": [
+   "Center",
+   "Centre",
+   "Expand",
+   "Intersects",
+   "IsInside",
+   "IsInsideOrOn",
+   "MaxLength",
+   "MaxX",
+   "MaxY",
+   "Merge",
+   "MinLength",
+   "MinX",
+   "MinY",
+   "XLength",
+   "YLength"
+  ],
+  "Box3D": [
+   "Matrix2D",
+   "MaxZ",
+   "MinZ",
+   "ReflectionMatrix2D",
+   "RotationMatrix2D",
+   "ScalingMatrix2D",
+   "ZLength"
+  ],
+  "CArchiveException": [
+   "CObject"
+  ],
+  "CBaseTabbedPane": [
+   "CMFCReBar",
+   "HkfA"
+  ],
+  "CCommonDialog": [
+   "CMenu",
+   "ImageList_Create",
+   "ImageList_Destroy",
+   "ImageList_LoadImageW"
+  ],
+  "CDialogBar": [
+   "P2eA"
+  ],
+  "CDocItem": [
+   "CFormView",
+   "COleClientItem",
+   "COleDocument",
+   "hneA"
+  ],
+  "CDocManager": [
+   "CD2DResource",
+   "CReBar",
+   "RegDeleteKeyExW",
+   "SHGetKnownFolderPath"
+  ],
+  "CDockBar": [
+   "BeginBufferedPaint",
+   "BufferedPaintInit",
+   "BufferedPaintUnInit",
+   "CMiniDockFrameWnd",
+   "D2D1CreateFactory",
+   "D2D1MakeRotateMatrix",
+   "DrawThemeTextEx",
+   "DwmDefWindowProc",
+   "DwmExtendFrameIntoClientArea",
+   "DwmIsCompositionEnabled",
+   "EndBufferedPaint",
+   "HDWriteCreateFactory",
+   "PoZF",
+   "SHCreateItemFromParsingName"
+  ],
+  "CEvent": [
+   "CFileException",
+   "CMutex",
+   "CSplitterWnd"
+  ],
+  "CFrameWnd": [
+   "CControlBar",
+   "CException",
+   "CInvalidArgException",
+   "CMemoryException",
+   "CNotSupportedException",
+   "COleException",
+   "CSimpleException",
+   "CView"
+  ],
+  "CHelpComboBoxButton": [
+   "CMFCMenuBar",
+   "CWinAppEx"
+  ],
+  "CIRCULAR_LEAD": [
+   "LINEAR_LEAD"
+  ],
+  "CMDIChildWndEx": [
+   "CMDITabProxyWnd",
+   "CMapStringToOb",
+   "CPreviewDC"
+  ],
+  "CMDIFrameWnd": [
+   "CMDIChildWnd"
+  ],
+  "CMFCDropDownToolBar": [
+   "CMFCDropDownFrame",
+   "CMFCDropDownToolbarButton"
+  ],
+  "CMFCPropertyGridProperty": [
+   "CMFCPropertyGridColorProperty",
+   "CMFCPropertyGridCtrl"
+  ],
+  "CMFCPropertyPage": [
+   "CMFCControlRenderer",
+   "CMFCShadowRenderer"
+  ],
+  "CMFCRibbonColorMenuButton": [
+   "CMFCRibbonColorButton"
+  ],
+  "CMFCRibbonDefaultPanelButton": [
+   "CMFCRibbonPanel"
+  ],
+  "CMFCRibbonEdit": [
+   "CMFCRibbonRichEditCtrl"
+  ],
+  "CMFCRibbonGalleryIcon": [
+   "CMFCRibbonGallery"
+  ],
+  "CMFCRibbonSeparator": [
+   "CMFCRibbonBaseElement"
+  ],
+  "CMFCRibbonTab": [
+   "CMFCRibbonCategory",
+   "hPXA"
+  ],
+  "CMFCShellListCtrl": [
+   "CMapWordToOb"
+  ],
+  "CMFCToolBarColorButton": [
+   "CMFCColorBar"
+  ],
+  "CMFCToolBarFontComboBox": [
+   "CMFCToolBarFontSizeComboBox"
+  ],
+  "CMapStringToString": [
+   "ChooseFontW"
+  ],
+  "CMultiPaneFrameWnd": [
+   "CPaneContainerManager",
+   "xBgA"
+  ],
+  "CONSTRAIN_ANGLE": [
+   "CONSTRAIN_DISTANCE",
+   "RAMP_ZIG_ZAG"
+  ],
+  "CObArray": [
+   "CPtrList",
+   "DwmSetWindowAttribute"
+  ],
+  "COleDialog": [
+   "COleBusyDialog"
+  ],
+  "COleDispatchException": [
+   "CommDlgExtendedError"
+  ],
+  "COleIPFrameWnd": [
+   "CByteArray",
+   "COleServerDoc",
+   "h3fA"
+  ],
+  "COutlookCustomizeButton": [
+   "CMFCOutlookBarTabCtrl",
+   "CMFCOutlookBarToolBar"
+  ],
+  "CPreviewView": [
+   "PrintDlgW"
+  ],
+  "CPreviewViewEx": [
+   "CMFCPrintPreviewToolBar"
+  ],
+  "CPropertyPage": [
+   "CPropertySheet"
+  ],
+  "CResourceException": [
+   "CBitmap",
+   "CBrush",
+   "CClientDC",
+   "CFont",
+   "CGdiObject",
+   "CPaintDC",
+   "CPalette",
+   "CPen",
+   "CRgn",
+   "CUserException",
+   "CWindowDC"
+  ],
+  "CRibbonUndoLabel": [
+   "CMFCRibbonUndoButton"
+  ],
+  "CScrollView": [
+   "CMapPtrToPtr"
+  ],
+  "CSmartDockingStandaloneGuide": [
+   "CSmartDockingGroupGuidesManager"
+  ],
+  "CSpinButtonCtrl": [
+   "CComboBoxEx",
+   "CDocTemplate",
+   "CHeaderCtrl",
+   "CImageList",
+   "CListCtrl",
+   "CRichEditCtrl",
+   "CSliderCtrl",
+   "CTabCtrl",
+   "CTreeCtrl"
+  ],
+  "CStatic": [
+   "CButton",
+   "CComboBox",
+   "CEdit",
+   "CListBox",
+   "CScrollBar"
+  ],
+  "CStringList": [
+   "CCriticalSection",
+   "CMapStringToPtr",
+   "CSyncObject"
+  ],
+  "CTasksPaneNavigateButton": [
+   "CMFCTasksPane",
+   "CMFCTasksPaneToolBar",
+   "CTasksPaneHistoryButton",
+   "CTasksPaneMenuButton"
+  ],
+  "CadLayer": [
+   "AddObject",
+   "Color",
+   "Colour",
+   "IsBitmapLayer",
+   "IsSystemLayer",
+   "Locked",
+   "RemoveObject",
+   "SetColor",
+   "SetColour",
+   "Visible"
+  ],
+  "CadLayerManager": [
+   "AddLayer",
+   "AddNewSheet",
+   "CreateSheets",
+   "FindObjectWithId",
+   "GetActiveLayer",
+   "GetLayerWithId",
+   "GetLayerWithName",
+   "HaveDataOnSheets",
+   "NumberOfSheets",
+   "RemoveLayer",
+   "SetActiveLayer"
+  ],
+  "CadObject": [
+   "AddContourCopy",
+   "Brightness",
+   "CadBitmap",
+   "CadContour",
+   "CadMarker",
+   "CadObjectGroup",
+   "CadPolyline",
+   "CadToolpathOutline",
+   "CadToolpathPreview",
+   "CadTxtBlock",
+   "CanTransform",
+   "CastCadObjectToCadObjectGroup",
+   "CastCadObjectToCadPolyline",
+   "CastCadObjectToCadToolpathOutline",
+   "CastCadObjectToCadToolpathPreview",
+   "CastCadObjectToTxtBlock",
+   "GetBoundingBox",
+   "GetContour",
+   "GetModificationCount",
+   "GetToolpathTabs",
+   "IncrementModificationCount",
+   "InsertToolpathTabAtPoint",
+   "InvalidateBounds",
+   "IsBitmap",
+   "IsLocked",
+   "IsSelected",
+   "LayerId",
+   "Modified",
+   "RawLayerId",
+   "SetLayer",
+   "SheetIndex",
+   "Text"
+  ],
+  "CadObjectList": [
+   "CanSelect",
+   "Clear",
+   "CreateCopyOfSelectedContours",
+   "GroupSelectionFinished",
+   "Remove",
+   "RemoveOnLayer",
+   "SelectionList"
+  ],
+  "Cancelled": [
+   "Cancelled"
+  ],
+  "CastCadObjectToCadContour": [
+   "CastCadObjectToCadBitmap",
+   "GetDefaultContourTolerance"
+  ],
+  "ChangeWindowMessageFilter": [
+   "CMDIFrameWndEx",
+   "xceA"
+  ],
+  "ChooseColorW": [
+   "CColorDialog"
+  ],
+  "CombineMode": [
+   "MergeHighest",
+   "MergeLowest",
+   "Multiply",
+   "Replace",
+   "Subtract"
+  ],
+  "Component": [
+   "CastComponentToComponentGroup",
+   "CastComponentToComponentLevel",
+   "ComponentGroup",
+   "FadeWouldChange",
+   "GetFadeData",
+   "GetRelief",
+   "GetTiltData",
+   "IsActive",
+   "IsFaded",
+   "IsTilted",
+   "Level",
+   "SetFadeData",
+   "SetTiltData",
+   "SetZOffset",
+   "SetZScale",
+   "SetZScaleAuto",
+   "TiltWouldChange",
+   "UseFade",
+   "UseTilt",
+   "ZScale"
+  ],
+  "Contour": [
+   "AddZMovesToTabs",
+   "AppendContour",
+   "AppendPoint",
+   "AppendSpan",
+   "AppendSpanAsLines",
+   "ArcTo",
+   "Area",
+   "BezierTo",
+   "BoundingBox2D",
+   "BoundingBox3D",
+   "CanAppendContour",
+   "CanAppendSpan",
+   "CentreOfGravity",
+   "Clone",
+   "ContainsArcs",
+   "ContainsBeziers",
+   "Count",
+   "CreatePolygonizedCopy",
+   "CreateTab",
+   "CreateTolerancedCopy",
+   "EndPoint2D",
+   "EndPoint3D",
+   "FindClosestPoint",
+   "GetAt",
+   "GetFirstSpan",
+   "GetHeadPosition",
+   "GetLastSpan",
+   "GetLeadInLength",
+   "GetNext",
+   "GetPrev",
+   "GetTailPosition",
+   "InvalidateBoundingBox",
+   "IsAntiClockwise",
+   "IsCCW",
+   "IsCW",
+   "IsClockwise",
+   "IsClosed",
+   "IsEmpty",
+   "IsOpen",
+   "IsPointInside",
+   "IsSinglePoint",
+   "Length",
+   "LineTo",
+   "MakeOffsetsSquare",
+   "OffsetInZ",
+   "RemoveHead",
+   "RemoveTail",
+   "ReorderStartPoint",
+   "Reverse",
+   "SetCanJoinToParent",
+   "SetZHeight",
+   "Smash",
+   "StartPoint2D",
+   "StartPoint3D",
+   "Tolerance",
+   "Transform"
+  ],
+  "ContourCarriage": [
+   "CreateCircle",
+   "IsInvalid",
+   "Move",
+   "Position",
+   "SpanIndex",
+   "SpanParameter",
+   "UpdatePosition"
+  ],
+  "ContourGroup": [
+   "AddHead",
+   "AddTail",
+   "AppendGroup",
+   "ClosedCount",
+   "DeleteOpenVectors",
+   "GetHead",
+   "GetLength",
+   "GetTail",
+   "Offset",
+   "OffsetWithOpenVectors",
+   "OpenCount",
+   "OwnsContours",
+   "RejoinContours",
+   "RemoveAt"
+  ],
+  "CreateCadGroup": [
+   "CreateCadContour"
+  ],
+  "DIRECT_OUTPUT": [
+   "ROTARY_WRAP_Y"
+  ],
+  "DirectoryEntry": [
+   "FileEntry",
+   "FileNameNoExt",
+   "IsDirectory",
+   "SORT_ALPHA",
+   "SORT_NONE",
+   "Size"
+  ],
+  "DirectoryReader": [
+   "BuildDirectoryList",
+   "ClearDirs",
+   "ClearFiles",
+   "DirAtIndex",
+   "FileAtIndex",
+   "GetFiles",
+   "NumberOfDirs",
+   "NumberOfFiles",
+   "SORT_SIZE",
+   "SORT_WRITE_DATE",
+   "SortDirs",
+   "SortFiles"
+  ],
+  "DisplayMessageBox": [
+   "ClassName",
+   "IsSerializable",
+   "Object",
+   "POSITION",
+   "UUID"
+  ],
+  "DocumentVariable": [
+   "DocumentVariableDelete",
+   "DocumentVariableExists",
+   "DocumentVariableList",
+   "GetDocumentVariable",
+   "IsInvalidDocumentVariableName",
+   "SetDocumentVariable",
+   "Value"
+  ],
+  "Drawable": [
+   "IsVisible",
+   "SetVisible"
+  ],
+  "DrillParameterData": [
+   "DoPeckDrill",
+   "PeckRetractGap",
+   "ProjectToolpath"
+  ],
+  "DwmSetIconicLivePreviewBitmap": [
+   "DwmInvalidateIconicBitmaps",
+   "DwmSetIconicThumbnail"
+  ],
+  "ENDSEC": [
+   "ENTITIES",
+   "HEADER",
+   "SECTION"
+  ],
+  "ExternalToolpathOptions": [
+   "CreatePreview"
+  ],
+  "FileDialog": [
+   "Directory",
+   "FileExt",
+   "FileOpen",
+   "FileSave",
+   "FileTitle",
+   "Folder",
+   "InitialDirectory",
+   "PathName"
+  ],
+  "FileName": [
+   "FilePath",
+   "ppBaseName",
+   "ppFileExtension",
+   "ppFirstFileOutput",
+   "ppLastFileOutput",
+   "ppNumFilesOutput",
+   "ppOutputDirectory",
+   "ppToolpathsOutput",
+   "ppToolsUsed"
+  ],
+  "GeometrySelector": [
+   "AddLayerName",
+   "AllowOpen",
+   "AllowToolDia",
+   "ApplySelector",
+   "CircleDia",
+   "CircleMatchAll",
+   "CircleMatchCircleDia",
+   "CircleMatchToolDia",
+   "CircleTolerance",
+   "FindLayerWithName",
+   "GeometryDepthOffset",
+   "GeometryDepthOffsetFormula",
+   "GeometryFilterUsed",
+   "GetAtLayerName",
+   "GetLayerNameHeadPosition",
+   "GetLayerNameTailPosition",
+   "GetNextLayerName",
+   "GetPrevLayerName",
+   "HasSelectorData",
+   "HaveLayerNames",
+   "LayerNameCount",
+   "LoadSelectorData",
+   "MixedGroupsOk",
+   "OnlyOnLayers",
+   "RemoveAllLayerNames",
+   "SaveSelectorData",
+   "SelectCircles",
+   "SelectClosed",
+   "SelectOpen",
+   "SetDepthFromGeometry",
+   "ToolDia"
+  ],
+  "GetBuildVersion": [
+   "DocumentVariables",
+   "ExportDocumentVariables",
+   "ImportDocumentVariables"
+  ],
+  "GetDouble": [
+   "GetBool",
+   "GetInt",
+   "GetString"
+  ],
+  "GetNumLevels": [
+   "AddRelief",
+   "CloneObjectWithId",
+   "CreateBakedCopyOfObject",
+   "CreateBakedCopyOfObjects",
+   "CreateNewLevel",
+   "CreateReliefFromCompositeModel",
+   "CreateReliefFromObjectWithId",
+   "DeleteLevelWithId",
+   "DeleteObjectWithId",
+   "DeleteObjectsWithIds",
+   "FindIdOfLevelWithIndex",
+   "FindIndexOfLevelWithId",
+   "FindLevelWithId",
+   "FindLevelWithLuaName",
+   "FindLevelWithObjectWithId",
+   "FindObjectIdWithName",
+   "GetActiveLevel",
+   "GetSelectedObjectIds",
+   "GetTopLevelObjectIds",
+   "GroupObjectsWithIds",
+   "GroupSelectedObjects",
+   "ReplaceComponentRelief",
+   "SelectionCanBeGrouped",
+   "SelectionCanBeUnGrouped",
+   "SetActiveLevel",
+   "UnGroupObjectWithId",
+   "UnGroupSelectedObjects",
+   "UpdateCompositeModel",
+   "UpdatePreviews"
+  ],
+  "GetSaveFileNameW": [
+   "p4GetOpenFileNameW"
+  ],
+  "GetThreadPreferredUILanguages": [
+   "ApplicationRecoveryFinished",
+   "ApplicationRecoveryInProgress",
+   "RegisterApplicationRecoveryCallback",
+   "RegisterApplicationRestart"
+  ],
+  "GetTouchInputInfo": [
+   "CloseTouchInputHandle",
+   "InitCommonControls",
+   "InitCommonControlsEx",
+   "InitNetworkAddressControl",
+   "RegisterTouchWindow",
+   "UnregisterTouchWindow"
+  ],
+  "GetTransparentHeight": [
+   "IsTransparent"
+  ],
+  "H9bA": [
+   "vcZoomTool"
+  ],
+  "HTML_Dialog": [
+   "AddCheckBox",
+   "AddDirectoryPicker",
+   "AddDoubleField",
+   "AddDropDownList",
+   "AddDropDownListValue",
+   "AddFilePicker",
+   "AddIntegerField",
+   "AddLabelField",
+   "AddRadioGroup",
+   "AddTextField",
+   "AddToolEditor",
+   "AddToolPicker",
+   "AddToolPickerValidToolType",
+   "ClearToolPickerValidToolTypes",
+   "GetCheckBox",
+   "GetDoubleField",
+   "GetDropDownListValue",
+   "GetIntegerField",
+   "GetLabelField",
+   "GetRadioIndex",
+   "GetTextField",
+   "GetTool",
+   "OnNext",
+   "SetInnerHtml",
+   "SetOuterHtml",
+   "Show",
+   "ShowDialog",
+   "UpdateCheckBox",
+   "UpdateDoubleField",
+   "UpdateDropDownListValue",
+   "UpdateIntegerField",
+   "UpdateLabelField",
+   "UpdateRadioIndex",
+   "UpdateTextField",
+   "UpdateToolPicker",
+   "WindowHeight",
+   "WindowWidth"
+  ],
+  "Height": [
+   "ActualXYOrigin",
+   "BlcOrigin",
+   "CalcAbsoluteZ",
+   "CalcAbsoluteZFromDepth",
+   "CalcDepthFromAbsoluteZ",
+   "MaterialSurfaceZ"
+  ],
+  "HkfA": [
+   "CMFCCaptionBar"
+  ],
+  "ImageList_DragShowNolock": [
+   "ImageList_BeginDrag",
+   "ImageList_DragEnter",
+   "ImageList_DragLeave",
+   "ImageList_DragMove",
+   "ImageList_EndDrag",
+   "ImageList_GetIcon"
+  ],
+  "IsAspire": [
+   "GetAppVersion",
+   "IsBetaBuild"
+  ],
+  "LAST": [
+   "DoZLevelRoughing",
+   "FIRST",
+   "MachiningAllowance",
+   "NONE",
+   "OFFSET",
+   "RASTER_X",
+   "RASTER_Y",
+   "RoughingParameterData",
+   "ZLevelProfile",
+   "ZLevelStrategy"
+  ],
+  "LINE_ENDING": [
+   "LineTerminator",
+   "RUN_EXE_AFTER",
+   "SUBSTITUTE",
+   "Translations"
+  ],
+  "LINE_NUMBER_MAXIMUM": [
+   "LINE_NUMBER_INCREMENT",
+   "LINE_NUMBER_START"
+  ],
+  "LeadInOutData": [
+   "CirularLeadRadius",
+   "DoLeadIn",
+   "DoLeadOut",
+   "LeadLength",
+   "LeadType",
+   "LinearLeadAngle",
+   "OvercutDistance"
+  ],
+  "MESSAGE": [
+   "SHAPE"
+  ],
+  "MM_MIN": [
+   "BALL_NOSE",
+   "END_MILL",
+   "MM_SEC"
+  ],
+  "MaterialBlock": [
+   "CENTRE",
+   "MaterialBox",
+   "Width",
+   "XYOrigin",
+   "ZOrigin",
+   "Z_BOTTOM"
+  ],
+  "MoveFileTransactedW": [
+   "AfxmReleaseManagedReferences",
+   "Automation",
+   "CFile",
+   "CreateFileTransactedW",
+   "DeleteFileTransactedW",
+   "Embedding",
+   "Register",
+   "RegisterPerUser",
+   "Regserver",
+   "RegserverPerUser",
+   "RestartByRestartManager",
+   "Unregister",
+   "UnregisterPerUser",
+   "Unregserver",
+   "UnregserverPerUser",
+   "ddenoshow"
+  ],
+  "NewJobCreated": [
+   "GetNameForToolpathFile"
+  ],
+  "OnLuaButton_": [
+   "OnDirectoryPicker_",
+   "OnFilePicker_",
+   "OnLuaButton_XXXX",
+   "OnLuaSelector_",
+   "OnLuaSelector_XXXX",
+   "OnToolPicker_"
+  ],
+  "P3dA": [
+   "CCmdTarget"
+  ],
+  "PKYA": [
+   "pIYA",
+   "uiRotaryMcDialog"
+  ],
+  "POCKET_INLAY": [
+   "Allowance",
+   "AllowanceFormula",
+   "Do2ndRaster",
+   "DoEngraving",
+   "DoRamping",
+   "DoRasterClearance",
+   "EngravingStepover",
+   "NoseConeDepth",
+   "NumNoseConePasses",
+   "POCKET_NORMAL",
+   "PROFILE_FIRST",
+   "PROFILE_LAST",
+   "PROFILE_NONE",
+   "PocketMode",
+   "PocketParameterData",
+   "PreserveArcs",
+   "ProfilePassType",
+   "RampDistance",
+   "RasterAllowance",
+   "RasterAngle",
+   "UseAreaClearTool",
+   "UseNoseCone"
+  ],
+  "PQ1A": [
+   "pY1A"
+  ],
+  "PREVIOUS_TOOL_NUMBER": [
+   "DATE",
+   "FILE_NAME",
+   "FILE_NOTES",
+   "FILE_PATHNAME",
+   "PATHNAME",
+   "TIME",
+   "TOOLNAME",
+   "TOOLPATHS_OUTPUT",
+   "TOOLPATH_DIR",
+   "TOOLPATH_EXTENSION",
+   "TOOLPATH_FILENAME",
+   "TOOLPATH_NAME",
+   "TOOLPATH_NOTES",
+   "TOOLPATH_PATHNAME",
+   "TOOLS_USED",
+   "TOOL_NAME",
+   "TOOL_NOTES",
+   "TP_DIR",
+   "TP_EXT",
+   "TP_FILENAME"
+  ],
+  "PROFILE_MALE_INLAY": [
+   "CLIMB_DIRECTION",
+   "CONVENTIONAL_DIRECTION",
+   "PROFILE_INSIDE",
+   "PROFILE_NORMAL",
+   "PROFILE_OUTSIDE"
+  ],
+  "Point2D": [
+   "IsCoincident",
+   "Point3D",
+   "SetInvalid"
+  ],
+  "PostPInfo": [
+   "DirectOutputParams",
+   "Extension",
+   "RunExeAfter",
+   "RunExeAfterParams",
+   "SupportsArcs",
+   "SupportsDirectOutput",
+   "SupportsDwell",
+   "SupportsNewSegment",
+   "SupportsPrinting",
+   "SupportsRotary",
+   "SupportsSpindle",
+   "SupportsToolchange",
+   "Supports_A_Indexing",
+   "Wrap_X_Axis",
+   "Wrap_Y_Axis"
+  ],
+  "PostProcessor": [
+   "Exists",
+   "GetNumLines",
+   "GetNumericVariable",
+   "GetStringVariable",
+   "GetValue",
+   "OutputLine",
+   "PeekStringValue",
+   "PeekValue",
+   "ppMasterNumericVariable",
+   "ppMasterStringVariable",
+   "ppMasterVariable",
+   "ppVariable"
+  ],
+  "PrismCarveParameterData": [
+   "CalculateMinimumBevelDepth",
+   "CutDepth",
+   "CutDepthFormula",
+   "CutDirection",
+   "Name",
+   "StartDepth",
+   "StartDepthFormula",
+   "bool"
+  ],
+  "ProfileParameterData": [
+   "CornerSharpen",
+   "CreateSquareCorners",
+   "DoFluting",
+   "InlayStepDepth",
+   "InlayStepWidth",
+   "KeepStartPoints",
+   "PROFILE_FEMALE_INLAY",
+   "PROFILE_ON",
+   "PROFILE_STEPPED_MALE_INLAY",
+   "ProfileMode",
+   "ProfileSide",
+   "TabLength",
+   "TabThickness",
+   "Use3dTabs",
+   "UseTabs"
+  ],
+  "ProgressBar": [
+   "Finished",
+   "SetPercentProgress",
+   "SetText",
+   "StepProgress"
+  ],
+  "PropertySheetW": [
+   "CreatePropertySheetPageW",
+   "DestroyPropertySheetPage"
+  ],
+  "QueryPerformanceFrequency": [
+   "NtClose",
+   "NtOpenFile",
+   "NtQueryObject",
+   "NtQuerySection",
+   "NtQuerySemaphore",
+   "NtQuerySystemInformation",
+   "NtQueryTimerResolution",
+   "NtSetInformationFile",
+   "NtSetTimerResolution",
+   "QueryPerformanceCounter"
+  ],
+  "RAMP_SMOOTH": [
+   "FULL_LENGTH",
+   "FluteType",
+   "FlutingParameterData",
+   "RAMP_LINEAR",
+   "RAMP_START",
+   "RAMP_START_END",
+   "RampLength",
+   "RampRatio",
+   "RampType",
+   "UseRampRatio",
+   "UseSelectionOrder"
+  ],
+  "ROTARY_SUPPORT": [
+   "SPINDLE_SPEED_RANGE"
+  ],
+  "RampingData": [
+   "RAMP_SPIRAL",
+   "RampAngle",
+   "RampConstraint",
+   "RampMaxAngleDist",
+   "RampOnLeadIn"
+  ],
+  "Registry": [
+   "BoolExists",
+   "DoubleExists",
+   "IntExists",
+   "StringExists"
+  ],
+  "Relief": [
+   "BlendBetweenReliefs",
+   "ColumnIsTransparent",
+   "CombineReliefs",
+   "CreateSectionCopy",
+   "CreateSlice",
+   "FlipX",
+   "FlipY",
+   "GetInterpolated",
+   "GetMinMaxZ",
+   "GetTrueMinMaxZ",
+   "MakeValuesTransparent",
+   "MergeHeighest",
+   "PixelHeight",
+   "PixelWidth",
+   "PointIsOnModel",
+   "RealHeight",
+   "RealWidth",
+   "RenderTriangle",
+   "ReplaceTransparentValues",
+   "Reset",
+   "RotateClockwise90",
+   "RotateCounterClockwise90",
+   "RowIsTransparent",
+   "SetLowest",
+   "SurfaceZ",
+   "TiltRelief",
+   "TransposeXY",
+   "Volume",
+   "XOffset",
+   "XPixelSize",
+   "YOffset",
+   "YPixelSize",
+   "ZOffset"
+  ],
+  "SHEETLIST": [
+   "CLEARANCE",
+   "COLLAR",
+   "COMMON_TOOL",
+   "CORNER",
+   "DATA",
+   "DEFAULT_CUTTER_DIAMETER",
+   "DIRECTION",
+   "DIRECTORIES",
+   "ENGLISH",
+   "FILES",
+   "FIT_PART_IN_PART",
+   "FIT_TYPE",
+   "FORMAT",
+   "GRAIN",
+   "IF_MIRROR",
+   "LANGUAGE",
+   "LENGTH",
+   "MAXIMUM",
+   "MINIMUM",
+   "NAME",
+   "NEST_TYPE",
+   "NORMAL",
+   "OUTPUT",
+   "PARAMETERS",
+   "PART",
+   "PARTLIST",
+   "PART_DIST_TYPE",
+   "PREF_HOLE_FILL",
+   "PRIORITY",
+   "QUANTITY",
+   "RESOLUTION",
+   "RESULT",
+   "SETTINGS",
+   "SHEET",
+   "STEP_ANGLE",
+   "TEMPORARY",
+   "UNIFIED",
+   "WIDTH"
+  ],
+  "SKyu": [
+   "R1h58"
+  ],
+  "SaveCurrentJobTo": [
+   "CloseCurrentJob",
+   "CreateNewJob",
+   "OpenExistingJob",
+   "SaveCurrentJob",
+   "SaveCurrentJobAs"
+  ],
+  "ScriptDirectory": [
+   "OutputDirectory",
+   "ResetScript",
+   "TestScriptPattern"
+  ],
+  "System": [
+   "EventLog"
+  ],
+  "TRANSLATION": [
+   "RUN_SCRIPT_AFTER"
+  ],
+  "TabFormData": [
+   "AutoTabTypeIndex",
+   "MaxNumTabs",
+   "MinNumTabs",
+   "NumTabs",
+   "TabAtStart",
+   "TabDistance"
+  ],
+  "TaskDialogIndirect": [
+   "CTaskDialog"
+  ],
+  "Thickness": [
+   "ApplyZParameters",
+   "ArcBulgeFromMidPoint",
+   "ArcBulgeFromRadiusAndCentre",
+   "CastSpanToArcSpan",
+   "CastSpanToBezierSpan",
+   "CastSpanToLineSpan",
+   "CastSpanToTabLineSpan",
+   "EndZParameter",
+   "Is3D",
+   "Set3dTabParameters",
+   "StartZParameter"
+  ],
+  "Tool": [
+   "BRAD_POINT_DRILL",
+   "ClearStepover",
+   "ConvertRateUnitsTo",
+   "ConvertValueToUnits",
+   "CreateTool",
+   "DIAMOND_DRAG",
+   "ENGRAVING",
+   "FEET_MIN",
+   "FORM_TOOL",
+   "FeedRate",
+   "FlatRadius",
+   "INCHES_MIN",
+   "INCHES_SEC",
+   "InMM",
+   "IsCompatibleCutDepths",
+   "IsCompatibleFeedRates",
+   "IsCompatibleTool",
+   "METRES_MIN",
+   "Notes",
+   "PlungeRate",
+   "Power",
+   "RADIUSED_END_MILL",
+   "RADIUSED_ENGRAVING",
+   "RADIUSED_FLAT_ENGRAVING",
+   "RateUnits",
+   "RateUnitsText",
+   "SpindleSpeed",
+   "Stepdown",
+   "Stepover",
+   "THROUGH_DRILL",
+   "TipRadius",
+   "ToolDB_Location",
+   "ToolNumber",
+   "ToolType",
+   "ToolTypeText",
+   "UpdateParameters",
+   "VBIT",
+   "VBit_Angle"
+  ],
+  "ToolDatabase": [
+   "SelectTool"
+  ],
+  "Toolpath": [
+   "ActiveSheetIndex",
+   "DeleteActiveSheetIndex",
+   "FirstPoint",
+   "GroupId",
+   "HasActiveSheetIndex",
+   "LastPoint",
+   "MachiningTime",
+   "PositionData",
+   "ReplaceTool",
+   "SimulationColour",
+   "SimulationColourMode",
+   "Statistics"
+  ],
+  "ToolpathManager": [
+   "AddExternalToolpath",
+   "CopyToolpathWithId",
+   "CreateDrillingToolpath",
+   "CreateFinishingToolpath",
+   "CreateFlutingToolpath",
+   "CreatePocketingToolpath",
+   "CreatePrismCarvingToolpath",
+   "CreateProfilingToolpath",
+   "CreateRoughingToolpath",
+   "CreateVCarvingToolpath",
+   "DeleteAllToolpaths",
+   "DeleteToolpath",
+   "DeleteToolpathWithId",
+   "Find",
+   "GetGroupToolpathWithIndex",
+   "GetNumberOfToolpathsInGroup",
+   "GetSelectedToolpath",
+   "GetToolpathIndexWithId",
+   "LoadToolpathTemplate",
+   "NumVisibleToolpaths",
+   "RecalculateAllToolpaths",
+   "RecalculateToolpath",
+   "ReorderToolpathList",
+   "SaveToolpathAsTemplate",
+   "SaveVisibleToolpathsAsTemplate",
+   "SetAllToolpathsVisibility",
+   "ToolpathModified",
+   "ToolpathWithNameExists",
+   "UndrawAllToolpaths"
+  ],
+  "ToolpathSaveInfo": [
+   "BaseName",
+   "PostP",
+   "ShowFileDialog"
+  ],
+  "ToolpathSaver": [
+   "AddToolpath",
+   "ClearToolpathList",
+   "CreatePost",
+   "DefaultPost",
+   "GetNumPosts",
+   "GetPostAtIndex",
+   "GetPostWithFilename",
+   "GetPostWithName",
+   "NumberOfToolpaths",
+   "SaveToolpaths"
+  ],
+  "ToolpathStats": [
+   "DwellTime",
+   "FeedLength",
+   "IsValid",
+   "MinimumZ",
+   "PlungeLength",
+   "RapidLength",
+   "RetractLength"
+  ],
+  "ToolpathTab": [
+   "EnsureHomeZIsSafe",
+   "HomeA",
+   "HomeX",
+   "HomeY",
+   "HomeZ",
+   "SafeZ",
+   "SafeZGap",
+   "SetHomePosition",
+   "StartZGap",
+   "ToolpathPosData",
+   "ToolpathPosData_Base"
+  ],
+  "TranslationMatrix2D": [
+   "ClosestParameterOnLine",
+   "DistBetweenPointsSq",
+   "IdentityMatrix2D",
+   "MidPoint",
+   "ParameterPoint",
+   "PointIsLeftOfLine",
+   "PointIsRightOfLine",
+   "PointOntoLineVector",
+   "SideOfPointOnLine"
+  ],
+  "UNITS": [
+   "FILE_EXTENSION",
+   "POST_BASE",
+   "POST_NAME"
+  ],
+  "UTP_INT": [
+   "DeleteParameter",
+   "ParameterExists",
+   "ParameterObject",
+   "SetBool",
+   "SetDouble",
+   "SetInt",
+   "SetString",
+   "UTP_BOOL",
+   "UTP_DOUBLE",
+   "UTP_STRING",
+   "UTP_UUID"
+  ],
+  "Undefined": [
+   "ArcMidPoint",
+   "ArcSpan",
+   "Bezier",
+   "BezierSpan",
+   "Bulge",
+   "CalculateArcAngleInRadians",
+   "ChordLength",
+   "ClosestDistSq",
+   "ClosestParameterToPoint",
+   "EndVector",
+   "GetControlPointPosition",
+   "IsArcType",
+   "IsBezierType",
+   "IsLeadInType",
+   "IsLeadOutType",
+   "IsLineType",
+   "IsOvercutType",
+   "LeadInArc",
+   "LeadInLine",
+   "LeadOutLine",
+   "LineSpan",
+   "MoveControlPoint",
+   "NormalLine",
+   "NumberOfControlPoints",
+   "OvercutLine",
+   "Point",
+   "PointAtParameter",
+   "RadiusAndCentre",
+   "SetBulge",
+   "SetEndPoint2D",
+   "SetEndPoint3D",
+   "SetStartPoint2D",
+   "SetStartPoint3D",
+   "Span",
+   "StartVector",
+   "TabLine",
+   "TabLineSpan",
+   "TempLine1",
+   "TempLine2",
+   "TempLine3",
+   "Type"
+  ],
+  "VCarveParameterData": [
+   "DoFlatBottom",
+   "FlatDepth",
+   "FlatDepthFormula"
+  ],
+  "VERTEX": [
+   "ENDSEC",
+   "POLYLINE",
+   "SEQEND"
+  ],
+  "Vector2D": [
+   "Cross",
+   "LengthSq",
+   "NormalTo",
+   "Normalize",
+   "Vector3D"
+  ],
+  "VectricJob": [
+   "ClearClipboard",
+   "ClearWrappedModel",
+   "ComponentManager",
+   "CopyToClipboard",
+   "CreateBoundariesAtZValue",
+   "CreateHorizontalGuide",
+   "CreateVerticalGuide",
+   "DisplayToolpathPreviewForm",
+   "ExportSelectionToDxf",
+   "ExportSelectionToEps",
+   "ExportSelectionToSvg",
+   "GetBounds",
+   "GetWrapDiameter",
+   "GroupSelection",
+   "GuidesVisible",
+   "ImportBitmap",
+   "ImportDxfDwg",
+   "ImportSTLDirect",
+   "ImportSVG",
+   "InInches",
+   "IsWrappedModel",
+   "JobParameters",
+   "LayerManager",
+   "PostProcessorParameters",
+   "Refresh2DView",
+   "SelectAllVectors",
+   "Selection",
+   "SetGuidesVisible",
+   "SetWrappedModel",
+   "SetXY_Origin",
+   "UnGroupSelection",
+   "WrapZOnSurface",
+   "WrappingXValues"
+  ],
+  "WRAP_DIAMETER": [
+   "XY_ORIGIN",
+   "Z_ORIGIN"
+  ],
+  "X3fA": [
+   "COleLinkingDoc"
+  ],
+  "XLfA": [
+   "CMFCShowAllButton"
+  ],
+  "XcdA": [
+   "CDialog",
+   "CObList",
+   "DllGetClassObject",
+   "GetFileAttributesTransactedW",
+   "RegDeleteKeyTransactedW",
+   "RegOpenKeyTransactedW"
+  ],
+  "Z_CENTRE": [
+   "Z_TOP"
+  ],
+  "_ENV": [
+   "base",
+   "math",
+   "sinkt",
+   "socket",
+   "sourcet",
+   "string"
+  ],
+  "abcdeABCDE123": [
+   "ImageList_Draw"
+  ],
+  "bipc_gmap_sem_lock_": [
+   "bipc_gmap_sem_count_",
+   "bipc_gmap_sem_map_"
+  ],
+  "bold": [
+   "bolder",
+   "lighter"
+  ],
+  "cAfs": [
+   "cmActiveComponentNode"
+  ],
+  "circle": [
+   "ellipse",
+   "polygon",
+   "polyline",
+   "rect"
+  ],
+  "close": [
+   "BLOCKSIZE",
+   "closed",
+   "receive",
+   "sock"
+  ],
+  "cmModelTree": [
+   "vmmObjectNode"
+  ],
+  "cmPatternNode": [
+   "cmLevelNode"
+  ],
+  "cyan": [
+   "darkblue"
+  ],
+  "dirty": [
+   "sock"
+  ],
+  "error": [
+   "base",
+   "default",
+   "socket",
+   "string",
+   "type"
+  ],
+  "facet": [
+   "endfacet",
+   "vertex"
+  ],
+  "full": [
+   "LINEAR",
+   "PINGPONG",
+   "flush",
+   "input",
+   "lines",
+   "output",
+   "popen",
+   "seek",
+   "setvbuf",
+   "tmpfile",
+   "write"
+  ],
+  "getfd": [
+   "__call",
+   "base",
+   "dirty",
+   "getfd",
+   "setmetatable",
+   "table"
+  ],
+  "h8hA": [
+   "CMFCToolBarsCommandsPropertyPage",
+   "CMFCToolBarsListPropertyPage"
+  ],
+  "hKdA": [
+   "hKdA"
+  ],
+  "hPU3": [
+   "XsBI"
+  ],
+  "hpgA": [
+   "CMFCRibbonStatusBar",
+   "COleCntrFrameWndEx",
+   "pogA"
+  ],
+  "inet": [
+   "connect",
+   "source"
+  ],
+  "inet6": [
+   "address",
+   "connect",
+   "laddress",
+   "lport",
+   "port",
+   "socket"
+  ],
+  "left": [
+   "middle",
+   "right"
+  ],
+  "listen": [
+   "addr",
+   "bind",
+   "close",
+   "family",
+   "inet",
+   "ipairs",
+   "reuseaddr",
+   "setoption",
+   "tcp6"
+  ],
+  "luaScriptSection": [
+   "CLIPBOARD_DATA",
+   "alpha",
+   "space"
+  ],
+  "luaUUID": [
+   "AsString",
+   "CreateNew",
+   "FindIndex",
+   "GetCount",
+   "InsertAfter",
+   "InsertBefore",
+   "IsEqual",
+   "MakeEmpty",
+   "MakeNill",
+   "RawId",
+   "RemoveAll",
+   "SetAt",
+   "SetId",
+   "UUID_List"
+  ],
+  "magenta": [
+   "maroon"
+  ],
+  "math": [
+   "AA9999AABBBBFFBBAAEEEEEE4466BBBB9977BBEE4422DDDD22EEBBCCCCAA9988",
+   "FF44DDEE668844338800111144DD44BBCCEEFF99EEAA2211225500BB44CCFF99",
+   "LuaR",
+   "require",
+   "string"
+  ],
+  "pVgA": [
+   "CMFCOutlookBar"
+  ],
+  "pkXA": [
+   "uiLayerNewDialog"
+  ],
+  "ppHomePositionX": [
+   "INCHES",
+   "ppHomePositionA",
+   "ppHomePositionY",
+   "ppHomePositionZ",
+   "ppJobUnits",
+   "ppMaterialLengthX",
+   "ppMaterialLengthY",
+   "ppMaterialLengthZ",
+   "ppMaterialMaxX",
+   "ppMaterialMaxY",
+   "ppMaterialMaxZ",
+   "ppMaterialMinX",
+   "ppMaterialMinY",
+   "ppMaterialMinZ",
+   "ppMaterialXOriginPos",
+   "ppMaterialXYOrigin",
+   "ppMaterialYOriginPos",
+   "ppMaterialZOrigin",
+   "ppOutputUnits",
+   "ppSafeZ",
+   "ppWrapAxis",
+   "ppWrapDiameter",
+   "ppWrapZOffset"
+  ],
+  "quot": [
+   "apos"
+  ],
+  "receive": [
+   "BLOCKSIZE",
+   "sock"
+  ],
+  "result": [
+   "log_path",
+   "script_path"
+  ],
+  "send": [
+   "close",
+   "sock"
+  ],
+  "shpProfile": [
+   "cmCombineMode",
+   "shpAngle",
+   "shpBaseHeight",
+   "shpHeightLimiting",
+   "shpLimitHeight",
+   "shpTiltAnchorValid",
+   "shpTiltAnchorX",
+   "shpTiltAnchorY",
+   "shpTiltAngle",
+   "shpTiltDirectionValid",
+   "shpTiltDirectionX",
+   "shpTiltDirectionY",
+   "shpTiltType",
+   "shpTolerance",
+   "shpVersion"
+  ],
+  "sink": [
+   "default"
+  ],
+  "sock": [
+   "addrinfo",
+   "backlog",
+   "host",
+   "port"
+  ],
+  "socket": [
+   "address",
+   "laddress",
+   "lport",
+   "port"
+  ],
+  "stdin": [
+   "stderr",
+   "stdout"
+  ],
+  "string": [
+   "chunk",
+   "length",
+   "math",
+   "size",
+   "sock",
+   "socket"
+  ],
+  "table": [
+   "base",
+   "name",
+   "opt1",
+   "opt2"
+  ],
+  "transform": [
+   "matrix",
+   "rotate",
+   "scale",
+   "skewx",
+   "skewy",
+   "stroke",
+   "translate"
+  ],
+  "txtChar": [
+   "txtCursorHitInfo"
+  ],
+  "txtVectricChar": [
+   "txtConstraints",
+   "txtKerningPairs",
+   "txtLine",
+   "txtVariable",
+   "txtVariableList"
+  ],
+  "uiLayerSelection": [
+   "uiLayerPickerBox"
+  ],
+  "umComponentPropertyChange": [
+   "cAumComponentPaste"
+  ],
+  "umCompositeUndoRedoState": [
+   "umComponentUnGroupState"
+  ],
+  "umMonitoredContourUnlinkState": [
+   "umComponentMoveState"
+  ],
+  "umVectorSheetMoveState": [
+   "umToolpathUndoRedoState"
+  ],
+  "umVectorUnGroupState": [
+   "umBatchUndoRedoState",
+   "umLayerVisibilityState",
+   "umModelEnvelopeEditState",
+   "umSelectionState",
+   "umShapeCreationEditState",
+   "umShapeCreationState",
+   "umSheetCreateState",
+   "umToolpathCreateState",
+   "umUndoRedoState",
+   "umVectorCreateState",
+   "umVectorDeleteState",
+   "umVectorGroupState",
+   "umVectorLayerMoveState",
+   "umVectorModifyState",
+   "umVectorTransformState",
+   "umVectorUndoRedoState"
+  ],
+  "utCSplashWnd": [
+   "utCSplashThread"
+  ],
+  "utGradient": [
+   "utGradientPeg"
+  ],
+  "utSliderEdit": [
+   "MiniDumpWriteDump",
+   "SHGetKnownFolderIDList",
+   "utNiceSlider",
+   "utParameter",
+   "utParameterList",
+   "utRandomValue"
+  ],
+  "utTaskPanelButton": [
+   "utSubclassWnd"
+  ],
+  "uv_mapping": [
+   "UUUUUU"
+  ],
+  "v3dGraphicsView": [
+   "v3dPreviewView"
+  ],
+  "v3dTextureImage": [
+   "WTClose",
+   "WTEnable",
+   "WTInfoW",
+   "WTOpenW",
+   "WTOverlap",
+   "WTPacketsGet",
+   "WTQueuePacketsEx",
+   "WTQueueSizeSet"
+  ],
+  "vcCadContour": [
+   "vcCadContourHitInfo"
+  ],
+  "vcCadLayerManager": [
+   "vcCadLayer"
+  ],
+  "vcCadSheetManager": [
+   "vcCadSheet"
+  ],
+  "vcCadView": [
+   "vcPreviewView"
+  ],
+  "vcCadWorkplane": [
+   "vcCadLayerPasteData",
+   "vcCadRotationAnchor"
+  ],
+  "vcContourHandleList": [
+   "vcContourHandle"
+  ],
+  "vcDimensioningTool": [
+   "vCursorHitInfo"
+  ],
+  "vcDrawCircleTool": [
+   "vcDistortableComponentPreview",
+   "vcDistortableContours",
+   "vcDistortableObject",
+   "vcDistortedContour"
+  ],
+  "vcHandleEditTool": [
+   "vcGuideLine",
+   "vcGuideLineManager",
+   "vcHandle"
+  ],
+  "vcInspectTool": [
+   "vcHandleList",
+   "vcHookWnd"
+  ],
+  "vcToolpathTabTool": [
+   "vcToolpathTab"
+  ],
+  "vdArcSpan": [
+   "CloseThemeData",
+   "DrawThemeBackground",
+   "DrawThemeEdge",
+   "DrawThemeIcon",
+   "DrawThemeParentBackground",
+   "DrawThemeText",
+   "EnableThemeDialogTexture",
+   "EnableTheming",
+   "GetCurrentThemeName",
+   "GetThemeAppProperties",
+   "GetThemeBackgroundContentRect",
+   "GetThemeBackgroundExtent",
+   "GetThemeBackgroundRegion",
+   "GetThemeBool",
+   "GetThemeColor",
+   "GetThemeDocumentationProperty",
+   "GetThemeEnumValue",
+   "GetThemeFilename",
+   "GetThemeFont",
+   "GetThemeInt",
+   "GetThemeIntList",
+   "GetThemeMargins",
+   "GetThemeMetric",
+   "GetThemePartSize",
+   "GetThemePosition",
+   "GetThemePropertyOrigin",
+   "GetThemeRect",
+   "GetThemeString",
+   "GetThemeSysBool",
+   "GetThemeSysColor",
+   "GetThemeSysColorBrush",
+   "GetThemeSysFont",
+   "GetThemeSysInt",
+   "GetThemeSysSize",
+   "GetThemeSysString",
+   "GetThemeTextExtent",
+   "GetThemeTextMetrics",
+   "GetWindowTheme",
+   "HitTestThemeBackground",
+   "IsAppThemed",
+   "IsThemeActive",
+   "IsThemeBackgroundPartiallyTransparent",
+   "IsThemeDialogTextureEnabled",
+   "IsThemePartDefined",
+   "OpenThemeData",
+   "SetThemeAppProperties",
+   "SetWindowTheme"
+  ],
+  "vdEnvelopeDistorter": [
+   "UNKNOWN"
+  ],
+  "vdTabLineSpan": [
+   "vdSpan"
+  ],
+  "viewbox": [
+   "display",
+   "none"
+  ],
+  "wglMesaLibrary": [
+   "wglAddSwapHintRectVectric",
+   "wglChoosePixelFormat",
+   "wglDescribePixelFormat",
+   "wglGetPixelFormat",
+   "wglSetPixelFormat"
+  ],
+  "xodA": [
+   "utXPGroupBox"
+  ]
+ },
+ "source": "Aspire.exe strings (heuristic)"
+}
