@@ -5,7 +5,7 @@ import json
 
 from mcp.server.fastmcp import FastMCP
 
-from . import offline
+from . import diagnostics, offline
 from .bridge import Bridge
 
 mcp = FastMCP("aspire")
@@ -103,6 +103,20 @@ async def import_vector_file(path: str) -> dict:
         f'local job = VectricJob()\nlocal r = job:ImportDxfDwg({_lua_str(path)})\n'
         'job:Refresh2DView()\nreturn tostring(r)')
     return {"ok": ok, "output": out}
+
+
+@mcp.tool()
+async def feedback_report() -> str:
+    """Diagnostic report (paths, counts, bridge/socket probe) for the user to paste back to the developer."""
+    await bridge.start()
+    probe = None
+    if bridge.connected:
+        ok, out = await bridge.run_lua(
+            'local ok, s = pcall(require, "socket")\n'
+            'return "socket=" .. tostring(ok) .. " version=" .. tostring(ok and s._VERSION)')
+        probe = {"ok": ok, "output": out}
+    info = {"connected": bridge.connected, "host": bridge.host, "port": bridge.port}
+    return diagnostics.build_report(info, probe)
 
 
 def main() -> None:

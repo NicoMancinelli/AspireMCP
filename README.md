@@ -1,5 +1,9 @@
 # Aspire MCP
 
+> ## 🚧 Status: IN DEVELOPMENT
+> Early prototype. The live bridge into Aspire has **not yet been tested against a real Aspire install**; expect breakage.
+> **Using an AI to install it?** Point it at [INSTALL_FOR_AI.md](INSTALL_FOR_AI.md), and send me the output of the `feedback_report` tool.
+
 > Unofficial. Not affiliated with Vectric. Requires your own licensed Aspire. This repo contains no Vectric software or data.
 
 ## Install (Windows PC with Aspire)
