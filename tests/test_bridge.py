@@ -27,3 +27,16 @@ def test_roundtrip():
         w.close()
         b._server.close()
     asyncio.run(go())
+
+
+def test_port_in_use_is_reported():
+    async def go():
+        a = Bridge(port=0)
+        await a.start()
+        port = a._server.sockets[0].getsockname()[1]
+        b = Bridge(port=port)
+        await b.start()
+        ok, msg = await b.run_lua("return 1")
+        assert not ok and "cannot listen" in msg
+        a._server.close()
+    asyncio.run(go())

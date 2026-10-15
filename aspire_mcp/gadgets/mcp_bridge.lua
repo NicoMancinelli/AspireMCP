@@ -5,14 +5,23 @@
 -- chunks it receives. Protocol: request "<n>\n" + n bytes of Lua; reply
 -- "<OK|ERR> <m>\n" + m bytes. The gadget blocks Aspire's UI while running;
 -- send the chunk `return "__quit__"` (or close the socket) to release it.
-require "strict"
+-- (deliberately no `require "strict"`: it can break the embedded socket loader)
 
 g_host = "127.0.0.1"
 g_port = 8765
 
 function main(script_path)
-   local socket = require("socket")
-   local conn, err = socket.connect(g_host, g_port)
+   local ok, socket = pcall(require, "socket")
+   if not ok then
+      DisplayMessageBox("MCP Bridge: require('socket') failed in this Aspire build:\n" .. tostring(socket))
+      return false
+   end
+   local conn, err
+   for attempt = 1, 10 do   -- the MCP server may still be starting
+      conn, err = socket.connect(g_host, g_port)
+      if conn then break end
+      socket.sleep(1)
+   end
    if not conn then
       DisplayMessageBox("MCP Bridge: cannot connect to " .. g_host .. ":" .. g_port .. " (" .. tostring(err) .. ")")
       return false

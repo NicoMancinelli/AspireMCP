@@ -2,14 +2,27 @@
 from __future__ import annotations
 
 import json
+from contextlib import asynccontextmanager
 
 from mcp.server.fastmcp import FastMCP
 
 from . import diagnostics, offline
 from .bridge import Bridge
 
-mcp = FastMCP("aspire")
 bridge = Bridge()
+
+
+@asynccontextmanager
+async def _lifespan(_app):
+    await bridge.start()  # listen immediately so the gadget can connect before any tool call
+    try:
+        yield
+    finally:
+        if bridge._server:
+            bridge._server.close()
+
+
+mcp = FastMCP("aspire", lifespan=_lifespan)
 
 
 def _lua_str(s: str) -> str:
@@ -76,7 +89,8 @@ def search_lua_api(query: str) -> list[dict]:
 async def bridge_status() -> dict:
     """Whether the Aspire 'MCP Bridge' gadget is connected."""
     await bridge.start()
-    return {"connected": bridge.connected, "host": bridge.host, "port": bridge.port}
+    return {"connected": bridge.connected, "host": bridge.host, "port": bridge.port,
+            "error": bridge.start_error}
 
 
 @mcp.tool()
@@ -115,7 +129,8 @@ async def feedback_report() -> str:
             'local ok, s = pcall(require, "socket")\n'
             'return "socket=" .. tostring(ok) .. " version=" .. tostring(ok and s._VERSION)')
         probe = {"ok": ok, "output": out}
-    info = {"connected": bridge.connected, "host": bridge.host, "port": bridge.port}
+    info = {"connected": bridge.connected, "host": bridge.host, "port": bridge.port,
+            "error": bridge.start_error}
     return diagnostics.build_report(info, probe)
 
 

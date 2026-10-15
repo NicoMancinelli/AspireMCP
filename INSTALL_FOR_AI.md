@@ -11,6 +11,10 @@ the feedback report. Do not modify anything under Aspire's install folder except
    - Gadgets dir: `Documents\Vectric Files\Gadgets` (or `<data dir>\Gadgets`). Ask the user if unsure; search `*.lua` gadget examples like `DXF_Batch_Processor.lua`.
 2. Check `uv --version`. If missing: `winget install astral-sh.uv`, then reopen the terminal.
    (User-level install; no admin rights needed.)
+3. `uvx --from git+https://...` needs **git** on PATH (`git --version`; `winget install Git.Git` if missing).
+   No git? Use the zip instead: replace `git+https://github.com/NicoMancinelli/AspireMCP` everywhere below with
+   `https://github.com/NicoMancinelli/AspireMCP/archive/refs/heads/main.zip`.
+   GUI clients (Claude Desktop) may not see `uvx` on PATH: use its full path (`where uvx`) as the command.
 
 ## 2. Register the MCP server
 Use the user's client. Command is always `uvx --from git+https://github.com/NicoMancinelli/AspireMCP aspire-mcp`.
@@ -23,8 +27,10 @@ Env vars are optional if the folders are in the usual place, but set them if you
 ## 3. Install the bridge gadget
 Download `https://raw.githubusercontent.com/NicoMancinelli/AspireMCP/main/aspire_mcp/gadgets/mcp_bridge.lua`
 into the Gadgets dir. Ask the user to restart Aspire, open a job, and run "mcp_bridge" from the Gadgets menu.
-Note: while running it blocks Aspire's UI; that is expected. The MCP server must be running first
-(it listens on 127.0.0.1:8765). If port 8765 is taken, tell the user; this is not yet configurable.
+Note: while running it blocks Aspire's UI; that is expected. The MCP client must be running (it starts the server,
+which listens on 127.0.0.1:8765 from startup; the gadget retries for ~10s). Port override for the server:
+env `ASPIRE_MCP_PORT` (the gadget's port is `g_port` at the top of the .lua, edit both if you change it).
+`bridge_status` shows `error` if the port is taken (e.g. two clients open at once: close one).
 
 ## 4. Verify (run these MCP tools in order and record results)
 1. `product_info`  -> expect product_name "Aspire" and a version.
